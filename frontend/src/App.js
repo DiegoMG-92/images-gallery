@@ -1,9 +1,12 @@
-import { jsx as _jsx } from "react/jsx-runtime";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./Components/Header";
+
 const App = () => {
-  return /*#__PURE__*/_jsx("div", {
-    className: "App",
-    children: /*#__PURE__*/_jsx("h1", {
-      children: "Images Gallery 2"    })
-  });
+  return (
+    <div>
+      <Header title="Images Gallery 2" />
+    </div>
+  );
 };
 export default App;
