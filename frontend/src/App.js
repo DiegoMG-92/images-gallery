@@ -15,6 +15,7 @@ const App = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
+        setWord('');
       })
       .catch((error) => {
         console.log(error);
