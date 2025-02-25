@@ -7,12 +7,12 @@ const navbarStyle = {
  
 };
 
-const Header = (props) => {
+const Header = (title) => {
 
   return (
     <Navbar style={navbarStyle} variant="light">
         <Container>
-            <Logo style={{maxWidth: '12rem', maxHeight: '2rem'} }></Logo>
+            <Logo alt={title} style={{maxWidth: '12rem', maxHeight: '2rem'} }></Logo>
         </Container> 
     </Navbar>
   );
